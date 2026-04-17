@@ -28,8 +28,8 @@ Como o projeto está em constante evolução, as próximas etapas são:
 * **Análise e Desenvolvimento de Sistemas** - FATEC Franca (Cursando 2º Semestre).
 
 ## 📫 Contato
-* **LinkedIn:** [www.linkedin.com/in/anavitoriaalves]
-* **E-mail:** [anavivi143@gmail.com]
+* [**LinkedIn**](www.linkedin.com/in/anavitoriaalves)
+* [**E-mail**](anavivi143@gmail.com)
 
 ---
 Desenvolvido por **Ana Vitória Oliveira** ✨
