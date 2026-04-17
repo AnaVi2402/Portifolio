@@ -5,7 +5,6 @@ Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar m
 >[!IMPORTANT]
 > **Status do Projeto:** 🚧 Em desenvolvimento
 
----
 
 ## 📍 Sobre o Projeto
 O site foi construído focando em **Clean Code** e **Design Responsivo**. Atualmente, ele conta com seções de apresentação, habilidades técnicas, projetos (ainda não inserido nenhum) e canais de contato. 
