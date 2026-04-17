@@ -45,21 +45,16 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
-    /*Para fixar o menu no topo da página*/
     position: sticky;   
     top: 0;            
     z-index: 1000;
 }
-/*Título do cabeçalho*/
-header h1{
-    font-family: var(--font-título);
-    font-size: 40px;
-
-}
 
 .menu {
     display: flex;
-    gap: 15px; /*Espaço entre os links*/
+    gap: 30px; 
+    margin-left: auto;
+    font-weight: bold;
 }
 
 /*Formatação para o menu dos links*/
@@ -69,8 +64,11 @@ header h1{
     font-family: var(--font-título);
     font-size: 24px;
     display: flex;
-    border-right: 1px solid var(--cor-texto-header);
-    padding-right: 15px; /*Espaço entre as barras*/
+}
+
+.menu a.ativo {
+    color: var(--cor-animacao-letra); 
+    font-weight: bold;
 }
 
 /*Formatação para quando passa o mouse em cima dos links*/
@@ -93,7 +91,6 @@ header h1{
     gap: 30px        
 }
 
-/*Tamanho do título da secção*/
 .apresentacao_titulo {
     font-family: var(--font-título);
     font-size: 60px;          
@@ -172,6 +169,12 @@ header h1{
     flex-direction: column;
     align-items: center;    
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.habilidades_card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(106, 75, 138, 0.2);
 }
 
 .habilidades_header {
@@ -210,25 +213,25 @@ header h1{
 }
 
 .progresso_html {
-    width: 90%; 
+    width: 85%; 
     height: 100%;
     background: linear-gradient(90deg, #4B3361, #C8A2C8); 
 }
 
 .progresso_prototipagem {
-    width: 90%; 
+    width: 60%; 
     height: 100%;
     background: linear-gradient(90deg, #4B3361, #C8A2C8); 
 }
 
 .progresso_logica {
-    width: 95%; 
+    width: 90%; 
     height: 100%;
     background: linear-gradient(90deg, #4B3361, #C8A2C8); 
 }
 
 .progresso_uml {
-    width: 85%; 
+    width: 80%; 
     height: 100%;
     background: linear-gradient(90deg, #4B3361, #C8A2C8); 
 }
@@ -251,6 +254,24 @@ header h1{
     width: 100%;
 }
 
+.projetos_conteudo{
+    background-color: var(--cor-texto-header);
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projetos_conteudo:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(106, 75, 138, 0.2);
+}
+
     /*Secção "Contato"*/
 .contato {
     display: flex;
@@ -260,7 +281,7 @@ header h1{
     width: 100%;
     background-color: white;
 }
-.contato_conteiner {
+.contato_conteudo {
     background-color: var(--cor-de-fundo);
     width: 900px;
     padding: 20px;
@@ -343,9 +364,10 @@ header h1{
 .rodape_redes a {
     color: var(--cor-texto-header);
     font-size: 20px;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease; /*Define o tempo da animação para a mudança de cor*/
 }
 
+/*Muda de cor quanto passar o mouse em cima do ícones do rodapé*/
 .rodape_redes a:hover {
-    color: var(--cor-animacao-letra); /* Usa a cor de animação que você já definiu */
+    color: var(--cor-animacao-letra); 
 }
