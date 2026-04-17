@@ -219,7 +219,7 @@ header {
 }
 
 .progresso_prototipagem {
-    width: 60%; 
+    width: 50%; 
     height: 100%;
     background: linear-gradient(90deg, #4B3361, #C8A2C8); 
 }
@@ -231,7 +231,7 @@ header {
 }
 
 .progresso_uml {
-    width: 80%; 
+    width: 70%; 
     height: 100%;
     background: linear-gradient(90deg, #4B3361, #C8A2C8); 
 }
